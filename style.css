@@ -1,0 +1,432 @@
+/*!
+Theme Name:         Bookworm Child
+Theme URI:          https://demo4.madrasthemes.com/bookworm/
+Author:             MadrasThemes
+Author URI:         https://madrasthemes.com/
+Description:        Clean and Modern Bookstore WooCommerce Theme
+Requires at least:  5.0
+Template:           bookworm
+Tested up to:       5.5
+Requires PHP:       5.6
+Version:            1.0.4
+License:            GNU General Public License v3 or later
+License URI:        https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain:        bookworm
+Tags:               e-commerce, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready, rtl-language-support, footer-widgets, sticky-post, theme-options, editor-style
+*/
+body.rtl footer ul#menu-contact-links li#menu-item-247 a {
+    direction: ltr;
+}
+.footer-logo-link.d-inline-block.mb-5 {
+    width: auto !important;
+}
+
+p.woocommerce-FormRow.woocommerce-FormRow--wide.form-row.form-row-wide span.required {
+    color: #f75454 !important;
+    margin-left: -5px;
+}
+p.woocommerce-FormRow.woocommerce-FormRow--wide.form-row.form-row-wide label {
+  width: 100%;
+}
+p.woocommerce-FormRow.woocommerce-FormRow--wide.form-row.form-row-wide {
+  margin-right: 0;
+  margin-left: 0;
+}
+p.woocommerce-FormRow.woocommerce-FormRow--wide.form-row.form-row-wide input {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 1.688rem + 2px);
+    padding: 0.844rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #7f7f83;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #dfdcd7;
+    border-radius: 0;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.woocommerce-password-strength.short {
+  color: #f75454 !important;
+}
+.woocommerce-password-hint {
+  font-weight: bold;
+}
+.woocommerce-password-strength.bad {
+  color: orange;
+}
+.woocommerce-password-strength.good {
+  color: green;
+}
+.woocommerce-password-strength.strong {
+  color: green;
+}
+
+td.xoo-cp-ptitle a {
+  color: #000;
+  font-size: 15px;
+}
+td.xoo-cp-pprice {
+  font-size: 13px;
+  width: 20%;
+}
+td.xoo-cp-pimg {
+  width: 20%;
+}
+.xoo-cp-ptotal {
+  float: left;
+  width: 100%;
+}
+.xcp-ptotal {
+  font-size: 16px;
+}
+a.xcp-btn {
+  width: 48%;
+  color: #fff;
+}
+a.xcp-btn:hover {
+    color: #fff;
+}
+td.xoo-cp-ptitle {
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 80px;
+  text-overflow: ellipsis;
+}
+
+.about-template .wp-block-bwgb-clients {
+    display: block !important;
+}
+.site-search input[type="text"] {
+    min-width: 99px !important;
+    width: 300px !important;
+}
+
+/* form.woocommerce-form.woocommerce-form-login.login.p-4.p-md-6 {
+    display: none;
+} */
+
+#site-header .topbar__nav--right.nav.mr-md-n3 ul li:nth-child(1) {
+    display: none !important;
+}
+
+.woocommerce-form-row.woocommerce-form-row--wide.form-row.form-row-wide{
+	margin:0 !important;
+}
+
+.about-template #bwgb-897af47 img.img-fluid {
+    width: 300px;
+    height: 250px;
+}
+
+.single-product .product_meta .table-responsive .posted_in a[rel="tag"] {
+    color: darkgreen;
+}
+
+.single-product .woocommerce-product-attributes-item .woocommerce-product-attributes-item__value a[rel="tag"] {
+    color: darkgreen;
+}
+abbr.required {
+    border: none;
+    text-decoration: none;
+}
+.checkout.woocommerce-checkout .form-control, .checkout.woocommerce-checkout .select2.select2-container .select2-selection--single {
+  padding: 0 1rem;
+  height: 30px;
+}
+.checkout.woocommerce-checkout .woocommerce-billing-fields__field-wrapper p {
+  margin-bottom: 0.50rem !important;
+}
+#order_review label {
+  display: inline !important;
+  flex-basis: unset;
+}
+
+#searchform input#s {
+  padding: 0;
+}
+#searchform input#s::placeholder {
+  font-size: 11px;
+}
+
+.woocommerce-billing-fields h3, .checkout-title {
+  background: #49B6A8;
+  color: #fff;
+  padding: 10px 10px;
+  position: relative;
+  margin: -2rem -1.5rem 1.5rem -1.5rem;
+}
+.checkout-title {
+  margin: -1.875rem -1.875rem 0;
+}
+
+.offcanvas-toggler.mr-4.mr-lg-8 {
+    margin-right: 1rem !important;
+}
+
+.woocommerce form .form-row .required, .woocommerce form .form-label abbr.required {
+    color: #f75454 !important;
+    text-align: left;
+    margin-left: -4px;
+}
+
+.sidebar .widget-content ul.menu ul.sub-menu {
+    display: none;
+}
+
+.child-toggle-sign {
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav.woocommerce-MyAccount-navigation {
+    position: relative;
+    z-index: 9999;
+}
+
+.woocommerce-MyAccount-content p.success {
+    color: green;
+    font-weight: bold;
+}
+
+.woocommerce-MyAccount-content p.error {
+    color: red;
+    font-weight: bold;
+}
+
+.woocommerce-MyAccount-navigation-link--vendor-add-product {
+  display: none;
+}
+.woocommerce-MyAccount-content .row.no-gutters .col:nth-child(4) {
+  display: none;
+}
+.button.btn-cart.aramexcalculator {
+    display: none;
+}
+
+.woocommerce-MyAccount-content .row.no-gutters .col:nth-child(5) span span::before{
+	content: "\f101";
+}
+
+.woocommerce-MyAccount-content .row.no-gutters .col:nth-child(6) span span::before{
+	content: "\f12c";
+}
+
+.woocommerce-MyAccount-content .row.no-gutters .col:nth-child(7) span span::before{
+	content: "\f104";
+}
+
+.woocommerce-MyAccount-content .row.no-gutters .col:nth-child(6) a {
+    border-bottom: 1px solid #eae8e4 !important;
+}
+
+.woocommerce-MyAccount-content .row.no-gutters .col:nth-child(7) a {
+    border-bottom: 1px solid #eae8e4 !important;
+}
+
+.woocommerce-MyAccount-content .row.no-gutters .col span{
+	font-family: Flaticon;
+	font-style: normal;
+}
+
+.woocommerce-checkout form.woocommerce-form.woocommerce-form-login.login.p-4.p-md-6 {
+    padding: 0 !important;
+    width: 25%;
+}
+
+#child-more-button-block{
+	width: 100%;max-width: max-content;margin: 50px auto 0;
+}
+
+#child-more-button-block a:nth-child(1){
+	height: max-content;
+	margin-right: 10px;
+	width: 300px;
+}
+
+#child-more-button-block a:nth-child(2){
+	height: max-content;
+	width: 300px;
+	background-color: #f75454 !important;
+	border-color: #f75454 !important;
+}
+
+#wpwc_custom_registration_field_34529_field select option{
+	display:none;
+}
+
+#wpwc_custom_registration_field_34529_field select option:nth-child(1){
+	display:block;
+}
+
+.uae-city #wpwc_custom_registration_field_34529_field select option:nth-child(2), .uae-city #wpwc_custom_registration_field_34529_field select option:nth-child(3), .uae-city #wpwc_custom_registration_field_34529_field select option:nth-child(4), .uae-city #wpwc_custom_registration_field_34529_field select option:nth-child(5), .uae-city #wpwc_custom_registration_field_34529_field select option:nth-child(6), .uae-city #wpwc_custom_registration_field_34529_field select option:nth-child(7), .uae-city #wpwc_custom_registration_field_34529_field select option:nth-child(8), .uae-city #wpwc_custom_registration_field_34529_field select option:nth-child(9) {
+	display:block;
+}
+
+.jordan-city #wpwc_custom_registration_field_34529_field  select option:nth-child(10), .jordan-city #wpwc_custom_registration_field_34529_field select option:nth-child(11), .jordan-city #wpwc_custom_registration_field_34529_field select option:nth-child(12), .jordan-city #wpwc_custom_registration_field_34529_field select option:nth-child(13), .jordan-city #wpwc_custom_registration_field_34529_field select option:nth-child(14), .jordan-city #wpwc_custom_registration_field_34529_field select option:nth-child(15), .jordan-city #wpwc_custom_registration_field_34529_field select option:nth-child(16), .jordan-city #wpwc_custom_registration_field_34529_field select option:nth-child(17), .jordan-city #wpwc_custom_registration_field_34529_field select option:nth-child(18), .jordan-city #wpwc_custom_registration_field_34529_field select option:nth-child(19), .jordan-city #wpwc_custom_registration_field_34529_field select option:nth-child(20), .jordan-city #wpwc_custom_registration_field_34529_field select option:nth-child(21)  {
+	display:block;
+}
+
+#wpwc_custom_registration_field_34530_field, #wpwc_custom_registration_field_34531_field, #wpwc_custom_registration_field_34532_field, #wpwc_custom_registration_field_34533_field {
+	display:none;
+}
+
+.uae-school #wpwc_custom_registration_field_34530_field{
+	display:block;
+}
+
+.uae-university #wpwc_custom_registration_field_34531_field{
+	display:block;
+}
+
+.jordan-school #wpwc_custom_registration_field_34532_field{
+	display:block;
+}
+.jordan-university #wpwc_custom_registration_field_34533_field{
+	display:block;
+}
+
+.child-pagination ul {
+  list-style-type: none;
+  float: right;
+  padding: 0;
+}
+.child-pagination ul li {
+  float: left;
+  padding: 5px 10px;
+}
+button[name="delete_product"] {
+    border: 0;
+    background: transparent;
+    color: #f30b0b;
+}
+
+@media (max-width: 1199.98px) {
+	.woocommerce-checkout form.woocommerce-form.woocommerce-form-login.login.p-4.p-md-6 {
+		padding: 0 !important;
+		width: 50%;
+	}
+	
+	#child-more-button-block a:nth-child(2){		
+		margin-top: 20px;
+	}
+}
+
+@media (max-width: 500px) {
+	
+	table.xoo-cp-pdetails td {
+	  display: block;
+	  width: 100%;
+	}
+	td.xoo-cp-ptitle {
+	  overflow: visible;
+	  white-space: normal;
+	  max-width: 100%;
+	  text-align: center;
+	}
+	
+	table th, table td{
+	max-width: 200px !important;
+	  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+	
+	#site-header .topbar.border-bottom ul li:nth-child(3) {
+	  display: block !important;
+	}
+	#site-header .topbar.border-bottom ul.d-none {
+	  display: inline-block !important;
+	}
+	#site-header .topbar.border-bottom ul.d-none li {
+	  display: none;
+	}
+	#site-header .topbar.border-bottom ul.d-none+.topbar__nav--right {
+	  display: inline-block !important;
+	}
+	
+	.custom-logo {
+		width: 150px;
+	}
+	
+	.woocommerce-checkout form.woocommerce-form.woocommerce-form-login.login.p-4.p-md-6 {
+		padding: 0 !important;
+		width: 100%;
+	}
+}
+
+
+
+@media (min-width: 1199.98px) {
+	.added_to_cart.wc-forward::before {
+		content: "\f105";
+		font-family: Flaticon;
+		font-size: 1.25rem;
+		margin-left: 10px;
+	}
+
+	.added_to_cart.wc-forward {
+		font-size: 0;
+	}	
+	
+	.teacher-archive .row-cols-lg-3 > * {
+	  flex: 0 0 16.6666%;
+	  max-width: 16.6666%;
+	}
+	.teacher-archive .row-cols-lg-3 .d-block.mb-3 img {
+	  height: 210px;
+	}	
+}
+
+/*Akshay code start*/
+.book-isbn
+{
+  width: 490px;
+  max-width: 100%;
+}
+
+.vendor-add-product
+{
+  margin-bottom: 2px !important;
+  padding-bottom: 2px !important; 
+}
+
+.woocommerce-account h6
+{
+  margin-bottom: 0px !important;
+}
+
+#offcanvasNav {
+  z-index: 99999;
+}
+
+table th, table td{
+	max-width: 200px !important;
+	white-space: nowrap; 
+  	overflow: hidden;
+  	text-overflow: ellipsis; 
+}
+
+@media only screen and (max-device-width: 580px) {
+	.bwgb-8d96f30 .sell-book-block {
+      margin-right: 0 !important;
+      margin-bottom: 20px;
+  }
+	#bwgb-efd9bb6 {
+		margin-right: 0 !important;
+	}
+	
+	table th, table td{
+		max-width: 100px;
+		white-space: nowrap; 
+		overflow: hidden;
+		text-overflow: ellipsis; 
+	}
+}
+#checkoutAccordion .shop_table tbody tr td h3 {
+  display: table-cell;
+}
+/*Akshay code end1*/ 
